@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,100&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.navprincipal{
+    width: 100%;
+    height: 191px;
+    background-color: rgb(77,17,42);
+}
+.navprincipal ul{
+    float: left;
+    margin: 30px;
+}
+.navprincipal ul li{
+    display: inline-block;
+    background:white;
+
+    height: 50px;
+}
+.navprincipal ul li a{
+    color: rgb(15, 91, 157);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto';
+    display: block;
+    padding: 42px 10px;
+}
+.navprincipal ul li a:hover{
+    background: url(../VINOSdeEUROPA/wine.png) no-repeat center;
+    background-size: 90%;
+}
+.navprincipal .logonav{
+    position: absolute;
+    left: 50%;
+    margin-left: 10px;
+}
+.footer{
+    width: 100%;
+    height: 30px;
+    color: azure;
+    background: black;
+    position: absolute;
+    bottom: 0;
+    padding: 5px 0;
+}
+.caroussel{
+    list-style: none;
+}
+.footer .copy{
+    padding-left: 25px;
+}
+.footer .copy .az{
+    text-decoration: none;
+    color: aliceblue;
+}
