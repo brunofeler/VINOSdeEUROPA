@@ -9,7 +9,7 @@ body{
 .navprincipal{
     width: 100%;
     height: 191px;
-    background-color: rgb(77,17,42);
+    background-color: rgb(1, 5, 45);
 }
 .navprincipal ul{
     float: left;
@@ -18,7 +18,6 @@ body{
 .navprincipal ul li{
     display: inline-block;
     background:white;
-
     height: 50px;
 }
 .navprincipal ul li a{
@@ -38,22 +37,35 @@ body{
     left: 50%;
     margin-left: 10px;
 }
+
+.caroussel{
+    list-style: none;
+    margin: 0;
+    margin-left: -10%;
+    
+}
+.caroussel li img{
+    width: 100%;
+    height: 15%;
+}
 .footer{
     width: 100%;
     height: 30px;
-    color: azure;
-    background: black;
+    background: rgb(1, 5, 45);
     position: absolute;
-    bottom: 0;
+    bottom:0px;
     padding: 5px 0;
-}
-.caroussel{
-    list-style: none;
 }
 .footer .copy{
     padding-left: 25px;
 }
-.footer .copy .az{
+.footer a{
+    float: right;
+    padding-right: 25px;
+}
+.footer .copy, .footer a{
+    font-size: 14px;
     text-decoration: none;
     color: aliceblue;
+    text-transform: uppercase;
 }
