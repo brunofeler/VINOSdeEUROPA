@@ -11,14 +11,23 @@ body{
     height: 191px;
     background-color: rgb(1, 5, 45);
 }
+.navprincipal h1{
+    color: aliceblue;
+    float: right;
+    margin-right: 110px;
+    font-size: 40px;
+    font-family: 'Roboto';
+}
 .navprincipal ul{
     float: left;
-    margin: 30px;
+    margin: 10px;
+    position: fixed;
+    margin-top: 25px;
 }
 .navprincipal ul li{
     display: inline-block;
     background:white;
-    height: 50px;
+    height: 80px;
 }
 .navprincipal ul li a{
     color: rgb(15, 91, 157);
@@ -30,7 +39,7 @@ body{
 }
 .navprincipal ul li a:hover{
     background: url(../VINOSdeEUROPA/wine.png) no-repeat center;
-    background-size: 90%;
+    background-size: 100%;
 }
 .navprincipal .logonav{
     position: absolute;
@@ -42,7 +51,6 @@ body{
     list-style: none;
     margin: 0;
     margin-left: -10%;
-    
 }
 .caroussel li img{
     width: 100%;
@@ -52,8 +60,8 @@ body{
     width: 100%;
     height: 30px;
     background: rgb(1, 5, 45);
-    position: absolute;
-    bottom:0px;
+    position: absolut;
+    margin-bottom: 10px;
     padding: 5px 0;
 }
 .footer .copy{
